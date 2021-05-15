@@ -15,4 +15,13 @@ public class CalculatorTests {
 
         Assert.assertTrue(result == 10);
     }
+
+    @Test
+    public void it_should_subtract_two_nubers() {
+        Calculator calculator = new Calculator();
+
+        Integer result = calculator.subtract(10, 5);
+
+        Assert.assertTrue(result == 5);
+    }
 }
