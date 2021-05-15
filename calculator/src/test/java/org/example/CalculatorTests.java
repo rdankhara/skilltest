@@ -7,7 +7,6 @@ public class CalculatorTests {
 
     @Test
     public void it_should_add_two_numbers() {
-        // AAA
         // Arrange
         Calculator calculator = new Calculator();
 
